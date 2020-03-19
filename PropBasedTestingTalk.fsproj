@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="readme.md" />
+    <None Include="A1_Add_Implementations.fsx" />
+    <None Include="A2-Add-ExampleTests.fsx" />
+    <None Include="B_Add_Properties.fsx" />
+    <None Include="C_Add_FsCheck.fsx" />
+    <None Include="D_ChoosingProperties.fsx" />
+    <None Include="utils.fsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Expecto.FsCheck" Version="8.13.2" />
+  </ItemGroup>
+
+</Project>
