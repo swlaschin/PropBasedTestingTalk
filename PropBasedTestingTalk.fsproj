@@ -11,7 +11,8 @@
     <None Include="A2-Add-ExampleTests.fsx" />
     <None Include="B_Add_Properties.fsx" />
     <None Include="C_Add_FsCheck.fsx" />
-    <None Include="D_ChoosingProperties.fsx" />
+    <None Include="D_WorkingWithFsCheck.fsx" />
+    <None Include="E_ChoosingProperties.fsx" />
     <None Include="utils.fsx" />
   </ItemGroup>
 
